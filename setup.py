@@ -13,6 +13,7 @@ installation_requirements = [
     "PyVCF3>=1.0.0",
     "jsonmodels>=2.2",
     "pandas>=1.4.0",
+    "defopt>=6.3.0",
 ]
 if sys.version_info < (3, 4):
     installation_requirements.extend(["asyncio", "unittest2"])
